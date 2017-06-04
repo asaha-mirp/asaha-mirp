@@ -2,9 +2,9 @@
 using namespace std;
 int main()
 {
-	int guess=64, low=0, high=128, c, numguess=0;
+	int guess=64, low=0, high=128, numguess=0;
 	int a=1;
-	cout<<"The game would gues your age in seven or less moves!!\nPress 1 if you are younger than the guess\nPress 2 if you are older than the guess\nPress 0 if the guess is correct\n\n";
+	cout<<"The game would guess your age in seven or less moves!!\nPress 1 if you are younger than the guess\nPress 2 if you are older than the guess\nPress 0 if the guess is correct\n\n";
 	while((numguess<=7)&&(a!=0))
 	{
 		cout<<"Are you " <<guess <<"years old?\n";
