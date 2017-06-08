@@ -12,6 +12,7 @@ void draw(){
   if (mousePressed){
   drawTarget(mouseX, mouseY);
   }
+  println(mouseX, mouseY);
 }
 void drawTarget(int a, int b){
   for (int i=n; i>=0; i--)
